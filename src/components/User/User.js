@@ -36,6 +36,11 @@ class User extends React.Component {
                 <div className="Separator"> : </div>
                 <div className="Data-Value">{user.details.company}</div>
               </div>
+              <div className="User-Data">
+                <div className="Data-Name">Followers</div>
+                <div className="Separator"> : </div>
+                <div className="Data-Value">{user.details.followers}</div>
+              </div>
             </div>
           </div>
         )}
